@@ -172,3 +172,30 @@ pryzmd tx staking create-validator \
 > Komut başarılı tamamlanınca tx hash verecek [burada](https://explorer.stavr.tech/Pryzm-Testnet) aratın ve success çıktısını aldınız hayırlı olsun.
 
 > Ayrıca projenin node dışında app testneti ve farklı rol alma süreçleri var isterseniz onlarada katılırsınız.
+
+
+<h1 align="center">Bazı faydalı komutlar</h1>
+
+```console
+# Node silme
+sudo systemctl stop pryzmd
+sudo systemctl disable pryzmd
+sudo rm -rf /etc/systemd/system/pryzmd.service
+sudo rm $(which pryzmd)
+sudo rm -rf $HOME/.pryzm
+sed -i "/PRYZM_/d" $HOME/.bash_profile
+
+# validatore token stake etme
+pryzmd tx staking delegate <OperatorAdresi> 1000000upryzm --from <Cüzdan> --chain-id indigo-1 --gas-adjustment 1.5 --gas auto --gas-prices 0.035upryzm -y
+
+# unjail etme
+pryzmd tx slashing unjail --from <Cüzdan> --chain-id indigo-1 --gas-adjustment 1.5 --gas auto --gas-prices 0.015upryzm -y
+
+# Cüzdanları listele
+pryzmd keys list
+
+# cüzdan silme
+pryzmd keys delete <Cüzdanİsmi>
+```
+
+> Daha eklerim aklıma geldikçe
