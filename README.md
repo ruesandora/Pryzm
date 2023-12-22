@@ -6,7 +6,7 @@
 
 > Fena olmayan bir proje ama sadetinde bir hub - haliyle ezbere bildiğim için 2 dakikada kurdum node'u, arkada çalışsın.
 
-> TOPLULUK KANALLARI: [Sohbet Kanalımız](https://t.me/RuesChat) - [Duyurular ve Gelişmeler](https://t.me/RuesAnnouncement) - [Whatsapp](https://whatsapp.com/channel/0029VaBcj7V1dAw1H2KhMk34) - [Kenshi Telegram](https://t.me/KenshiTech)
+> TOPLULUK KANALLARI: [Sohbet Kanalımız](https://t.me/RuesChat) - [Duyurular ve Gelişmeler](https://t.me/RuesAnnouncement) - [Whatsapp](https://whatsapp.com/channel/0029VaBcj7V1dAw1H2KhMk34) - [Pryzm Telegram](https://discord.gg/YUFuvWT7)
 
 #
 
