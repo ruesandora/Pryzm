@@ -158,7 +158,7 @@ pryzmd tx staking create-validator \
 --commission-max-rate 0.20 \
 --commission-max-change-rate 0.03 \
 --min-self-delegation 1 \
---from rues \
+--from pryzm1we.............. \
 --gas-adjustment 1.5 \
 --gas auto \
 --gas-prices 0.015upryzm \
