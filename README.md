@@ -169,4 +169,4 @@ pryzmd tx staking create-validator \
 
 > Komut başarılı tamamlanınca tx hash verecek [burada](https://explorer.stavr.tech/Pryzm-Testnet) aratın ve success çıktısını aldınız hayırlı olsun.
 
-
+> Ayrıca projenin node dışında app testneti ve farklı rol alma süreçleri var isterseniz onlarada katılırsınız.
