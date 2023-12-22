@@ -196,6 +196,12 @@ pryzmd keys list
 
 # cüzdan silme
 pryzmd keys delete <Cüzdanİsmi>
+
+# Peer ekeleme
+sudo systemctl stop pryzmd
+PEERS="911506669d6cb9503cd6b42cc083c754686e4426@95.217.131.14:41656"
+sed -i 's|^persistent_peers *=.*|persistent_peers = "'$PEERS'"|' $HOME/.pryzm/config/config.toml
+sudo systemctl restart pryzmd
 ```
 
 > Daha eklerim aklıma geldikçe
