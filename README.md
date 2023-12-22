@@ -141,6 +141,8 @@ pryzmd status 2>&1 | jq .SyncInfo
 ```
 > Çıktıda çıkan cüzdan adresine [buradan](https://testnet.pryzm.zone/faucet) test tokeni alalım.
 
+> Not: faucet'i suistimal etmek rewards almanızı engelleyebilir.
+
 ```console
 # şimdi validatorumuzu kuruyoruz
 # lütfen notlarımı okuyup bu komutu kullanın komutun altına notları bırakıyorum
