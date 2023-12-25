@@ -8,6 +8,8 @@
 
 > TOPLULUK KANALLARI: [Sohbet Kanalımız](https://t.me/RuesChat) - [Duyurular ve Gelişmeler](https://t.me/RuesAnnouncement) - [Whatsapp](https://whatsapp.com/channel/0029VaBcj7V1dAw1H2KhMk34) - [Pryzm Telegram](https://discord.gg/YUFuvWT7)
 
+> Stavr explorerda monikerinizi göremiyorsanız alternatif explorer:[Chainsco](https://testnet.chainsco.pe/pryzm/validators)
+
 #
 
 <h1 align="center">Donanım</h1>
@@ -203,5 +205,4 @@ PEERS="911506669d6cb9503cd6b42cc083c754686e4426@95.217.131.14:41656"
 sed -i 's|^persistent_peers *=.*|persistent_peers = "'$PEERS'"|' $HOME/.pryzm/config/config.toml
 sudo systemctl restart pryzmd
 ```
-
 > Daha eklerim aklıma geldikçe
